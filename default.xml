@@ -24,6 +24,9 @@
            fetch="https://github.com/LineageOS"
            revision="lineage-17.0" />
 
+  <remote  name="github"
+           fetch="https://github.com/" />
+
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
