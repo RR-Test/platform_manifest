@@ -99,7 +99,6 @@
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
 
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="los" />
-  <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="los" />
 
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
