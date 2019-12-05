@@ -99,12 +99,12 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 
 ##### Initializing the RR repo and downloading the manifest
 
-      $  repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b pie
+      $  repo init -u https://github.com/RR-Test/platform_manifest.git -b test_pie
 
 ##### Syncing the source
 [Hint: This might take a long time as the source is ~26GB]
 
-      $  repo sync -f --force-sync --no-clone-bundle
+      $  repo sync -f --force-sync --no-clone-bundle --no-tags
 
 ### Building the Resurrection Remix ROM
 - Preparing Required Binaries and Device Drivers

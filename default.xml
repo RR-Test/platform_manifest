@@ -23,6 +23,10 @@
            revision="pie"
 	   review="gerrit.resurrectionremix.com" />
 
+  <remote  name="rr-test"
+           fetch="https://github.com/RR-Test"
+           revision="test_pie" />
+
   <remote  name="rr-d"
            fetch="https://github.com/ResurrectionRemix-Devices"
            revision="pie" />
