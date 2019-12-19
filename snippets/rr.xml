@@ -24,11 +24,11 @@
 <project path="frameworks/base" name="android_frameworks_base" remote="rr-test" />
 <project path="prebuilts/clang/host/darwin-x86" name="clang-host-darwin-x86" remote="rr" clone-depth="1"/>
 <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="pie" clone-depth="1" />
-<project path="vendor/rr" name="android_vendor_resurrection" remote="rr"/>
+<project path="vendor/rr" name="android_vendor_resurrection" remote="rr-test"/>
 <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="rr-test" />
 <project path="lineage-sdk" name="android_lineage-sdk" remote="rr" />
 <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="rr" />
-<project path="device/rr/sepolicy" name="device_rr_sepolicy" remote="rr" />
+<project path="device/rr/sepolicy" name="device_rr_sepolicy" remote="rr-test" />
 <project path="frameworks/av" name="frameworks_av" remote="rr-test" />
 <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" remote="rr" />
 <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
