@@ -25,6 +25,7 @@
 
   <remote  name="rr-test"
            fetch="https://github.com/RR-Test"
+           review="review.gerrithub.io"
            revision="test_pie" />
 
   <remote  name="rr-d"
